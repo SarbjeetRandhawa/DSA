@@ -13,10 +13,6 @@ class solution{
 
         subsetsumm(i+1,sum+arr[i],arr,ans,n);
         subsetsumm(i+1,sum,arr,ans,n);
-
-
-
-
     }
 
     vector<int> subsetsum( vector<int> &arr , int n){
